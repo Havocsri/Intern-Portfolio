@@ -27,3 +27,6 @@ Srikanth S
 ## This portfolio website is currently under development
 
 This portfolio website was developed using HTML, CSS, and JavaScript to present my personal profile, skills, and contact information in a clean and professional format.
+
+## Recent Update
+- Responsive sticky navigation bar with smooth hover effects
