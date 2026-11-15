@@ -30,3 +30,6 @@ This portfolio website was developed using HTML, CSS, and JavaScript to present 
 
 ## Recent Update
 - Responsive sticky navigation bar with smooth hover effects
+
+
+- Responsive hero section with an introductory headline and call-to-action buttons
