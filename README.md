@@ -30,4 +30,8 @@ This portfolio website was developed using HTML, CSS, and JavaScript to present 
 
 ## Recent Update
 - Responsive sticky navigation bar with smooth hover effects
-- Responsive hero section with an introductory headline and call-to-action buttons
+- Responsive hero section with an introductory headline and call-to-action buttons.
+- Added a responsive Skills section to showcase my technical skills
+- Added a redesigned Contact section with a gradient card, “Let’s Connect” heading, and email button
+- Added LinkedIn and GitHub links
+- Improved responsive styling for smaller screens

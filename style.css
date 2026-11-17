@@ -170,6 +170,8 @@ h2 {
 .section {
   padding: 60px 40px;
   text-align: center;
+   background: #f8fafc;
+
 }
 
 .section h2 {
@@ -229,11 +231,115 @@ h2 {
   transform: translateY(-6px);
   border-color: #4f46e5;
 }
+/* contact  */
+  .contact {
+    padding: 80px 20px;
+    background: #0b0d12;
+    color: #f5f5f7;
+    font-family: Arial, sans-serif;
+  }
 
+  .contact-card {
+    position: relative;
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 56px;
+    overflow: hidden;
+    border: 1px solid #292d38;
+    border-radius: 24px;
+    background:
+      radial-gradient(ellipse at 90% 0%, #633cff33, transparent 42%),
+      #12151d;
+  }
+
+   
+  .contact-tag {
+    color: #a997ff;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 3px;
+  }
+  .contact h2 {
+    margin: 18px 0 12px;
+    font-size: clamp(36px, 7vw, 58px);
+    letter-spacing: -2px;
+  }
+  .contact h2 span {
+    color: #9c83ff;
+  }
+
+  .contact p {
+    max-width: 480px;
+    margin-bottom: 30px;
+    color: #a7aab5;
+    font-size: 16px;
+    line-height: 1.7;
+  }
+
+  .contact-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 20px;
+    padding: 14px 20px;
+    border-radius: 10px;
+    background: #8b70ff;
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    transition: background 0.2s, transform 0.2s;
+  }
+
+   .contact-button:hover {
+    color: white;
+    background: #7557f0;
+    transform: translateY(-2px);
+  }
+  
+  .contact-links {
+    display: flex;
+    gap: 22px;
+    margin-top: 32px;
+  }
+  
+   .contact-links a {
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+  }
+
+  .contact-links a:hover {
+    color: #a997ff;
+  }
+  
 /* Footer */
 footer {
+  padding: 28px;
   text-align: center;
-  padding: 20px;
-  background: #1e3a8a;
-  color: #fff;
+  background: #0f172a;
+  color: #ffffff;
+  font-size: 0.95rem;
+}
+
+
+/* ===== Entrance animation ===== */
+@media (prefers-reduced-motion: no-preference) {
+  .hero > * {
+    animation: fadeUp 0.8s ease both;
+  }
+
+  .hero > *:nth-child(2) {
+    animation-delay: 0.1s;
+  }
+
+  .hero > *:nth-child(3) {
+    animation-delay: 0.2s;
+  }
+
+  .hero > *:nth-child(4) {
+    animation-delay: 0.3s;
+  }
+
+  .hero > *:nth-child(5) {
+    animation-delay: 0.4s;
+  }
 }
