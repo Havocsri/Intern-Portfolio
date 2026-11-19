@@ -315,7 +315,9 @@ h2 {
 footer {
   padding: 28px;
   text-align: center;
-  background: #0f172a;
+ background:
+      radial-gradient(ellipse at 50% 50%, #695c9e33, transparent 62%),
+      #12151d;
   color: #ffffff;
   font-size: 0.95rem;
 }
