@@ -388,4 +388,52 @@ footer {
   }
 }
 
+/* toggle darkmode */
+body.dark-mode .navbar {
+  background: black;
+  border-bottom: 1px solid #1a1f25;
+}
 
+body.dark-mode .navbar ul a {
+  color:white;
+}
+
+body.dark-mode .hero {
+  background: black;
+  
+}
+body.dark-mode h1 {
+  color: whitesmoke;
+  
+}
+
+body.dark-mode .hero p {
+  color: #cbd5e1;
+}
+
+body.dark-mode .section {
+  background: black; 
+}
+
+body.dark-mode .section p {
+  color: #cbd5e1;
+}
+
+body.dark-mode .dark {
+  background: black;
+}
+
+body.dark-mode .skill-card {
+  background:
+      radial-gradient(ellipse at 90% 0%, #441aeb33, transparent 302%),
+      whitesmoke;
+  color:black;
+  border-color:gray;
+}
+
+body.dark-mode footer {
+  background: black;
+}
+body.dark-mode .contact{
+  background: black;
+}
