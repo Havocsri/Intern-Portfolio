@@ -20,3 +20,45 @@ themeToggle.addEventListener("click", function () {  // Toggle dark mode class
 
     }
 })
+// -----------------------------------------
+
+
+// Get the menu button
+const menuToggle = document.getElementById("menuToggle");
+
+// Get the navigation links
+const navLinks = document.getElementById("navLinks");
+
+// Add click event to menu button
+menuToggle.addEventListener("click", function () {
+
+    // Toggle active class
+    navLinks.classList.toggle("active");
+
+    // Change menu icon
+    if (navLinks.classList.contains("active")) {
+
+        menuToggle.textContent = "✕";
+
+    } else {
+
+        menuToggle.textContent = "☰";
+
+    }
+
+});
+
+// Close menu when a link is clicked
+const navItems = navLinks.querySelectorAll("a");
+
+navItems.forEach(function (item) {
+
+    item.addEventListener("click", function () {
+
+        navLinks.classList.remove("active");
+
+        menuToggle.textContent = "☰";
+
+    });
+
+});
