@@ -36,3 +36,11 @@ This portfolio website was developed using HTML, CSS, and JavaScript to present 
 - Added LinkedIn and GitHub links
 - Improved responsive styling for smaller screens
 -Improved responsive styling to contact and footer section
+
+## Project
+
+### Food Recipe App
+A responsive recipe application that lets users search for dishes, explore ingredients and cooking instructions, and discover meal ideas by category.
+
+- GitHub: https://github.com/Havocsri/Food-Recipie-app
+- Live Demo: https://lavirs-food-explorer.netlify.app/
