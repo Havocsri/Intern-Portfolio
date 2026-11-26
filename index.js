@@ -62,3 +62,28 @@ navItems.forEach(function (item) {
     });
 
 });
+
+
+// resume download
+
+const downloadResume = document.getElementById("downloadResume");
+
+downloadResume.addEventListener("click", function () {
+    const link = document.createElement("a");
+
+    link.download = "Srikanth-S-Resume.jpeg";
+
+    link.click();
+});
+
+
+// scroll 
+window.addEventListener("load", function () {
+    if (window.location.hash) {
+        history.replaceState(null, "", window.location.pathname);
+        window.scrollTo({
+            top: 0,
+            behavior: "instant"
+        });
+    }
+});

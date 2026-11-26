@@ -473,7 +473,7 @@ body.dark-mode .contact{
 
 
 /* Laptop and tablet */
-@media (min-width: 318px) {
+@media (min-width: 814px) {
   .navbar {
     flex-direction: row;
   }
@@ -490,7 +490,7 @@ body.dark-mode .contact{
 
 
 /* Mobile only */
-@media (max-width: 317px) {
+@media (max-width: 813px) {
   .navbar {
     flex-direction: row;
     flex-wrap: wrap;
