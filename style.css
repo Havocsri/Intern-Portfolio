@@ -456,7 +456,7 @@ body.dark-mode .contact{
   background: black;
 }
 
-/*  */
+/* toggle */
 .menu-toggle {
   display: none;
   padding: 8px 12px;
@@ -473,7 +473,7 @@ body.dark-mode .contact{
 
 
 /* Laptop and tablet */
-@media (min-width: 814px) {
+@media (min-width: 314px) {
   .navbar {
     flex-direction: row;
   }
