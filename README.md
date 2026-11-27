@@ -44,3 +44,25 @@ A responsive recipe application that lets users search for dishes, explore ingre
 
 - GitHub: https://github.com/Havocsri/Food-Recipie-app
 - Live Demo: https://lavirs-food-explorer.netlify.app/
+
+
+# Srikanth's Portfolio
+
+Personal portfolio website showcasing my background, skills, projects, and contact information.
+
+## Live Website
+
+[View my portfolio](https://srikanth-intern-portfolio.netlify.app/)
+
+## About
+
+This portfolio introduces me and highlights my work and experience.
+
+## Tech Stack
+
+_HTML,CSS,JAVA SCRIPT_
+
+
+## Deployment
+
+The website is deployed on [Netlify](https://srikanth-intern-portfolio.netlify.app/).
